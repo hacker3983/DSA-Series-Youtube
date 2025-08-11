@@ -4,7 +4,7 @@ This is a Data Structures and Algorithms series I started on youtube this includ
 # Youtube Playlist for DSA Series:
 https://www.youtube.com/playlist?list=PLYXXz3gliKASUIZ5rVfoPgilhUNSaiOsw
 
-# Topics covered
+# Topics Covered - Youtube
 1. [What are Data Structures & Algorithms? | introduction to Data Structures and Algorithms (DSA Ep. 1)](https://youtu.be/qTGqPbrrmJ4?si=37yaBfryF9HB1Fpe)
 2. [Time, Space Complexity Explained | Big O Notation (DSA Ep. 2)](https://youtu.be/uQmOepdSNWs?si=zb-JjRxPrENgvENp)
 3. [What Are Arrays? | Understanding Arrays in Programming (DSA Ep. 3)](https://youtu.be/_IZbLXzFpEQ?si=dHOBi0CvhqU1ZbOt)
