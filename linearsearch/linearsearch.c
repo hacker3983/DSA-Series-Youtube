@@ -8,7 +8,7 @@
  * It is good for searching through data structures that don't allow random access such as linked lists
  * Disadvantage:
  * It is slow on large datasets
- * Time Complexity: O(n)
+ * Time Complexity: O(n) - Linear Time
 */
 
 int linearsearch(int arr[], int size, int target_value) {
