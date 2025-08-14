@@ -1,5 +1,17 @@
 #include <stdio.h>
 
+/* Selection Sort - A sorting algorithm that goes through an array or list and finds the minimum or maximum value within an array 
+ * and moves it to the front and repeats this process until the entire array is sorted
+ * Advantages:
+ * Easy to implementing
+ * Works good on small datasets
+ *
+ * Disadvantage:
+ * Slow on large datasets
+ * Time Complexity:
+ * O(n^2) - Quadratic Time
+*/
+
 
 void print_array(int arr[], size_t arr_size) {
 	for(size_t i=0;i<arr_size;i++) {
