@@ -27,7 +27,7 @@ int binarysearch(int arr[], int size, int target_value) {
 			return mid;
 		} else if(arr[mid] < target_value) {
 			left = mid + 1;
-		} else {
+		} else if(arr[mid] > target_value) {
 			right = mid - 1;
 		}
 	}
@@ -35,12 +35,12 @@ int binarysearch(int arr[], int size, int target_value) {
 }
 
 int main() {
-	int arr[] = {4, 5, 10, 12, 15, 16, 36};
+	int arr[] = {3, 4, 9, 14, 17, 19, 21, 33, 39, 42};
 	int size = sizeof(arr) / sizeof(int);
-	int target_value = 17;
+	int target_value = 55;
 	int found_index = binarysearch(arr, size, target_value);
 	if(found_index != -1) {
-		printf("Found target value %d at index %d\n", target_value, found_index);
+		printf("The target value %d was found at index %d\n", target_value, found_index);
 	} else {
 		printf("The target value %d is not in the array\n", target_value);
 	}
